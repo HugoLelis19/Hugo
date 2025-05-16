@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fleur Vie</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f0f6fb;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      background-color: #d5e9f7;
+      padding: 2rem 1rem;
+    }
+    footer {
+      text-align: right;
+    }
+    .logo {
+      width: 100px;
+      height: auto;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #b0cde4;
+      margin: 0.5rem 0 0;
+      font-weight: 600;
+    }
+
+    .section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background-color: #ffffff;
+      border-left: 5px solid #96bada;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    .section h2 {
+      margin-top: 0;
+      color: #4177a6;
+      font-size: 1.5rem;
+    }
+
+    .section p {
+      line-height: 1.6;
+    }
+
+    .image-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+
+    .image-gallery img {
+      width: 30%;
+      max-width: 200px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+
+    @media (max-width: 600px) {
+      .image-gallery {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .image-gallery img {
+        width: 80%;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .section {
+        margin: 1rem;
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="puke.png.png" alt="Fleur logo" class="logo">
+    <h1>FLEUR VIE</h1>
+  </header>
+
+  <div class="section">
+    <h2>Nosaukums</h2>
+    <p>Nosaukums “Fleur Vie” sastāv no diviem franču valodas vārdiem: “fleur”, kas nozīmē “zieds”, un “vie”, kas nozīmē “dzīve”.</p>
+  </div>
+
+  <div class="section">
+    <h2>Radīšana</h2>
+    <p>Ir jāuzņemas izaicinājums darīt to, kas šķiet neiespējams, un jāiemēģina radīt kaut ko pilnīgi jaunu.</p>
+  </div>
+
+  <div class="section">
+    <h2>Inovācija</h2>
+    <p>Būtiskākā iezīme ir radīt kaut ko unikālu, pat ja tas tiek iedvesmots no citiem darbiem vai idejām.</p>
+  </div>
+
+  <div class="section">
+    <h2>Atbildība</h2>
+    <p>Ja uzņemies atbildību, tad ir iespējama pilnīga apņēmība un var pilnvērtīgi izmantot enerģiju un resursus.</p>
+  </div>
+
+  <div class="section">
+    <h2>Tērps</h2>
+    <p>Šajā sadaļā parādīti radītie tērpu dizaini, kas atspoguļo manu izveidoto tēlu.</p>
+    <div class="image-gallery">
+      <img src="https://th.bing.com/th/id/OIP.WdeZjX7ce8mQ9o0sgKxTOQHaLG?cb=iwc2&pid=ImgDet&w=474&h=710&rs=1" alt="Tērps 1">
+      <img src="https://th.bing.com/th/id/OIP.XwzaVKL2tvFCOGMlsqO2UQHaLG?cb=iwc2&pid=ImgDet&w=474&h=710&rs=1" alt="Tērps 2">
+      <img src="https://th.bing.com/th/id/OIP.si1bI2r0ddlaeCV4I0FLWAHaLG?cb=iwc2&pid=ImgDet&w=474&h=710&rs=1" alt="Tērps 3">
+    </div>
+  </div>
+  <footer>
+    <p>Izstrādāja: Hugo Lelis</p>
+  </footer>
+</body>
+</html>
